@@ -1,0 +1,40 @@
+import { ExchangeMeta } from './models';
+
+export const EXCHANGES_META: { [index: string]: ExchangeMeta } = {
+  BINANCE: { apiKeyNeeded: true, secretKeyNeeded: true },
+  BITFINEX: { apiKeyNeeded: true, secretKeyNeeded: true },
+  BITGET: { apiKeyNeeded: true, secretKeyNeeded: true },
+  BITMEX: { apiKeyNeeded: true, secretKeyNeeded: true },
+  BITSTAMP: { apiKeyNeeded: true, secretKeyNeeded: true, clientIdNeeded: true },
+  BITTREX: { apiKeyNeeded: true, secretKeyNeeded: true },
+  BYBIT: { apiKeyNeeded: true, secretKeyNeeded: true },
+  CURRENCYCOM: {
+    apiKeyNeeded: true,
+    secretKeyNeeded: true,
+    name: 'CURRENCY.COM',
+  },
+  EXMO: { apiKeyNeeded: true, secretKeyNeeded: true },
+  GATEIO: { apiKeyNeeded: true, secretKeyNeeded: true, name: 'GATE⋅IO' },
+  GDAX: {
+    apiKeyNeeded: true,
+    secretKeyNeeded: true,
+    passphraseNeeded: true,
+    name: 'COINBASE PRO',
+  },
+  GEMINI: { apiKeyNeeded: true, secretKeyNeeded: true },
+  HITBTC: { apiKeyNeeded: true, secretKeyNeeded: true },
+  HUOBI: { apiKeyNeeded: true, secretKeyNeeded: true },
+  INDODAX: { apiKeyNeeded: true, secretKeyNeeded: true },
+  KRAKEN: { apiKeyNeeded: true, secretKeyNeeded: true },
+  KUCOIN: { apiKeyNeeded: true, secretKeyNeeded: true, passphraseNeeded: true },
+  'MERCADO BITCOIN': { apiKeyNeeded: true, secretKeyNeeded: true },
+  NOVADAX: { apiKeyNeeded: true, secretKeyNeeded: true },
+  OKEX: {
+    name: 'OKX',
+    apiKeyNeeded: true,
+    secretKeyNeeded: true,
+    passphraseNeeded: true,
+  },
+  POLONIEX: { apiKeyNeeded: true, secretKeyNeeded: true },
+  WHITEBIT: { apiKeyNeeded: true, secretKeyNeeded: true },
+};
